@@ -1,0 +1,43 @@
+/**
+ *
+ * Sass Mixins
+ *
+ * @author Louis Young
+ *
+ */
+
+// Breakpoints
+
+// Specify each deivce and their respective breakpoint.
+// Usage: $device-name (string), breakpoint (integer). Default unit is pixels.
+$tablet: 768;
+$laptop: 1024;
+$desktop: 1248;
+
+// Specify the unit you wish to use.
+// Usage: $unit (px, em, rem etc). Default unit is pixels.
+$unit: px;
+
+// Breakpoint Mixins
+// Usage: $device-name (string), breakpoint (integer), unit (string).
+
+// Usage: @include tablet{}
+@mixin tablet {
+    @media (min-width: #{$tablet}#{$unit}) {
+        @content;
+    }
+}
+
+// Usage: @include laptop{}
+@mixin laptop {
+    @media (min-width: #{$laptop}#{$unit}) {
+        @content;
+    }
+}
+
+// Usage: @include desktop{}
+@mixin desktop {
+    @media (min-width: #{$desktop}#{$unit}) {
+        @content;
+    }
+}

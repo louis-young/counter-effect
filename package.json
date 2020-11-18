@@ -1,0 +1,27 @@
+{
+    "name": "fluid-studios",
+    "dependencies": {
+        "ansi-styles": "^3.2.1",
+        "browser-sync": "^2.24.7",
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^6.0.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-imagemin": "^4.1.0",
+        "gulp-notify": "^3.2.0",
+        "gulp-order": "^1.1.1",
+        "gulp-plumber": "^1.2.0",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.0.1",
+        "gulp-uglifyes": "^0.1.3",
+        "gulp-wait": "0.0.2"
+    },
+    "version": "1.0.0",
+    "main": "gulpfile.js",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Louis Young",
+    "license": "ISC",
+    "description": "Fluid Studios Front-End Project Template"
+}

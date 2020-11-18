@@ -1,0 +1,34 @@
+/**
+ *
+ * Sass Containers
+ *
+ * @author Louis Young
+ *
+ */
+
+// Container
+
+// Specify the width of the container on the respective device.
+// Usage: $device-width (string), width (integer).
+$mobile-width: 95%;
+$tablet-width: 85%;
+$laptop-width: 75%;
+
+// Specify a max width of the container.
+// Usage: $max-width (string), width (integer);
+$max-width: 1224px;
+
+// Container Rule
+.container {
+    width: $mobile-width;
+    margin: auto;
+    max-width: $max-width;
+
+    @include tablet {
+        width: $tablet-width;
+    }
+
+    @include laptop {
+        width: $laptop-width;
+    }
+}
