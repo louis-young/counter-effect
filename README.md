@@ -37,6 +37,3 @@ You can also pass in any configuration options in this order - `selector, min, m
 - Speed (the speed between each increment of the counter in milliseconds) - `data-counter-speed` - Default - `100`
 - Increment (how much the counter will increase by every interval) - `data-counter-interval` - Default - `1`
 - Delay (the amount of time in ms before the counter will increment) - `data-counter-delay` - Default - `0`
-
-
-
