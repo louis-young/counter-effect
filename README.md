@@ -1,6 +1,6 @@
 # Counter
 
-A lightweight (~1kb) vanilla JavaScript library for counter effects.
+A lightweight (~1kb) vanilla JavaScript library for producing counter effects.
 
 ## Setup
 
