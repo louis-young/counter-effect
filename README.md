@@ -1,4 +1,6 @@
-# Counter
+⚠️ Please note that this is an old project and does not reflect the quality of my current work.
+
+# Counter Effect
 
 A lightweight (~1kb) vanilla JavaScript library for producing counter effects.
 
